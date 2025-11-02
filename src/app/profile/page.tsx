@@ -18,7 +18,18 @@ const page = () => {
         <div className="MainContainer">
             <Header />
             <div className="WholePage flex justify-center">
-                <div className="flex">
+                <div className="flex flex-col">
+
+                    <Avatar>
+                        <AvatarImage src="https://github.com/shadcn.png" />
+                        <AvatarFallback>CN</AvatarFallback>
+                    </Avatar>
+                    <p className="p-2 py-5 font-semibold text-gray-300 text-3xl">{user?.name}</p>
+                    <div className="p-2">
+                        <label className="font-semibold text-gray-500" htmlFor="">Email</label>
+                        <p className="font-semibold text-gray-300">{user?.email}</p>
+                    </div>
+
 
 
                     <div className="p-2">
@@ -41,7 +52,12 @@ const page = () => {
                         </AlertDialog>
                     </div>
                 </div>
-                <UserProfile />
+
+                <div className="md:w-9/12 md:m-5 md:p-5 w-full m-1 flex flex-col">
+                    <h1 className="text-3xl font-semibold text-gray-100 py-4">Your Profile</h1>
+                    <UserProfile />
+                </div>
+
             </div>
             <PageEnd />
         </div>
