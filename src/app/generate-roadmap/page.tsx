@@ -14,7 +14,7 @@ const page = () => {
             <Header />
             <div className='WelcomeAndProgress flex flex-col'>
                 <div className='Welcome flex items-center justify-center'>
-                    <h2 className=' text-3xl p-2 md:text-5xl font-semibold text-gray-100'>
+                    <h2 className=' text-xl p-2 md:text-5xl font-semibold text-gray-100'>
                         Welcome <span className='text-gradient'>{user?.name}</span>
                     </h2>
                 </div>

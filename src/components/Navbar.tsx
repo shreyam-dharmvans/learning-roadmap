@@ -14,9 +14,9 @@ const Navbar = () => {
             </div>
 
 
-            <div className="flex gap-10 font-semibold text-gray-300 mr-40 justify-between">
+            <div className="hidden sm:flex gap-10 font-semibold text-gray-300 mr-40 justify-between">
 
-                <div className="relative group inline-block">
+                <div className="relative group inline-block  ">
                     <Link href="/#features-section" className="border-none hover:text-blue-600">
                         Explore
                     </Link>

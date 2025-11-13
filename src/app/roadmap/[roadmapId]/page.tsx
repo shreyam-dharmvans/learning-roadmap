@@ -42,7 +42,7 @@ const page = () => {
                     content: (
                         <div>
                             {section.subtopics.map((subtopic: Subtopic) => {
-                                return <div key={subtopic.title} id={section.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')} className='bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 border-r-4 my-10 p-5 text-left rounded-md flex justify-between'>
+                                return <div key={subtopic.title} id={section.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')} className='bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 border-r-4 my-10 p-5 text-left rounded-md flex flex-col sm:flex-row justify-between'>
                                     <div>
                                         <div className='text-lg'><b>{subtopic.title}</b></div>
                                         <div className='text-neutral-400'>
@@ -54,7 +54,7 @@ const page = () => {
                                                 <span><GoLinkExternal /></span>
                                             </Link></div>
                                     </div>
-                                    <div className=''>
+                                    <div className='mt-5 sm:mt-0'>
                                         <div className=""><span className=' font-semibold'>Duration :</span> {subtopic.duration} days </div>
                                         <div className=''><span className=' font-semibold'>Due Date :</span> {subtopic.due_date?.toString().substring(0, 10)}</div>
                                         {subtopic.is_completed ?
@@ -87,13 +87,13 @@ const page = () => {
         <div className="w-full flex  flex-col align-middle">
             <Header />
             {(loading || loadingRoadmap) && <Loader />}
-            <div className=" w-3/5 flex flex-col mx-auto text-center">
-                <div className="text-7xl font-bold py-5 text-gradient">
+            <div className=" sm:w-3/5 flex flex-col mx-auto text-center">
+                <div className="text-2xl sm:text-7xl font-bold py-5 text-gradient">
                     {roadmap?.title}
                 </div>
             </div>
 
-            <div className='Progress p-5 mx-20 justify-center'>
+            <div className='Progress p-5 mx-10 sm:mx-20 justify-center'>
                 <p className='text-2xl my-2 font-semibold text-gray-100'>Your Progress : {roadmap?.progress}%</p>
                 <div className='flex items-center justify-start '>
                     <Progress className='w-[90%]' value={roadmap?.progress} />

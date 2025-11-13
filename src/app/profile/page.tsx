@@ -17,8 +17,8 @@ const page = () => {
     return (
         <div className="MainContainer">
             <Header />
-            <div className="WholePage flex justify-center">
-                <div className="flex flex-col">
+            <div className="WholePage flex flex-col sm:flex-row justify-center mb-40">
+                <div className="flex flex-col ml-5 sm:ml-0 mt-5 sm:mt-0">
 
                     <Avatar>
                         <AvatarImage src="https://github.com/shadcn.png" />
@@ -53,7 +53,7 @@ const page = () => {
                     </div>
                 </div>
 
-                <div className="md:w-9/12 md:m-5 md:p-5 w-full m-1 flex flex-col">
+                <div className="md:w-9/12 md:m-5 md:p-5 w-[90%] m-1 ml-5 sd:ml-0 flex flex-col mt-5 sm:mt-0">
                     <h1 className="text-3xl font-semibold text-gray-100 py-4">Your Profile</h1>
                     <UserProfile />
                 </div>

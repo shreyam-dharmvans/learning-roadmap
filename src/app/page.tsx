@@ -31,7 +31,7 @@ export default function Home() {
         <Image className="mx-auto my-auto" width={650} height={650} src="timeline.svg" alt="Roadmap image" />
       </div>
 
-      <div className="flex items-center flex-col text-center">
+      <div className="flex items-center flex-col text-center mx-2">
         <h1 className="text-3xl sm:text-4xl md:text-5xl py-5 my-10 mx-auto w-full md:w-9/12 font-bold text-gray-300">Take the Leap and Dive into an Exceptional Experience on Our Website!</h1>
 
       </div>

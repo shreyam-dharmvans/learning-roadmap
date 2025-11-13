@@ -33,7 +33,7 @@ const UserProfile = () => {
     })
 
     return (
-        <div className="border-2 md:m-5 rounded-md w-full h-full">
+        <div className="border-2 md:m-5 rounded-md sm:w-full sm:h-full">
             {loading && <Loader />}
             {toggle ? <Form {...form}>
                 <form className="p-6 rounded-lg shadow-lg mx-auto" onSubmit={form.handleSubmit(onSubmit)}>
