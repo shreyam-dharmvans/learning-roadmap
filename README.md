@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Learning Roadmap
 
-## Getting Started
+A TypeScript-first project to plan, track, and evolve a personal learning journey.
 
-First, run the development server:
+## ✨ Overview
+
+**Learning Roadmap** helps you organize what to learn, when to learn it, and how to track progress over time.  
+It is designed to be simple, maintainable, and easy to extend as your goals grow.
+
+---
+
+## 🚀 Features
+
+- Structured learning paths by topic/domain
+- Milestone and progress tracking
+- Modular TypeScript codebase for maintainability
+- Lightweight frontend styling with CSS
+- Easy to customize for personal or team use
+
+---
+
+## 🛠️ Tech Stack
+
+- **TypeScript** (primary)
+- **Next.js**
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- npm or pnpm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/shreyam-dharmvans/learning-roadmap.git
+cd learning-roadmap
+npm install
+```
+
+### Run in development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Start production build
 
-## Learn More
+```bash
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧭 Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Define your learning goals (e.g., Web Dev, DSA, System Design).
+2. Break each goal into milestones.
+3. Assign timelines and priorities.
+4. Track completion and iterate your roadmap periodically.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ Suggested Roadmap Categories
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Programming Fundamentals
+- Data Structures & Algorithms
+- Frontend Development
+- Backend Development
+- Databases
+- DevOps & Deployment
+- Testing & Quality
+- System Design
+- Career Prep / Interview Prep
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m "feat: add your feature"`)
+4. Push to your branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+---
+
+## 📌 Project Goals
+
+- Keep learning plans clear and actionable
+- Make progress visible
+- Build consistency through structure
+
+---
+
+## 📄 License
+
+Add your preferred license here (e.g., MIT).
+
+---
+
+## 👤 Author
+
+**Shreyam Dharmvans**  
+GitHub: [@shreyam-dharmvans](https://github.com/shreyam-dharmvans)
